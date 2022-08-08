@@ -1,26 +1,26 @@
-// ReadMe Generator
-
-var inquirer = require('inquirer');
-inquirer
-  .prompt([
-    /* Pass your questions in here */
-  ])
-  .then((answers) => {
-    // Use user feedback for... whatever!!
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
-    }
-  });
-
 // TODO: Include packages needed for this application
-// Done
+const inqurier = require('inquirer');
+const fs = require('fs'); //file system
+const generateMarkdown = require('./generateMarkdown')
+console.log("Welcome to my README Generator!")
+console.log("Answer the following questions to generate a high quality README for your project.")
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of the project?',
+    validate: your_Input => {
+        if (your_Input) {
+            return true;
+        } else {
+            console.log('Enter a title to continue!');
+            return false;
+        }
+    }
+    },
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
