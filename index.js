@@ -1,5 +1,5 @@
 // TODO: Include packages needed for this application
-const inqurier = require('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs'); //file system
 const generateMarkdown = require('./generateMarkdown')
 console.log("Hello, welcome to my README Generator!")
@@ -194,7 +194,7 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.createPromptModule(questions)
+    inquirer.prompt(questions)
     .then(function(userInput) {
         console.log(userInput)
         writeToFile("README.md", generateMarkdown(userInput));
