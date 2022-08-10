@@ -1,14 +1,16 @@
 # undefined
   ## Table of Contents
   - [Description](#description)
+  - [License](#license)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Testing](#testing)
-  - [Github](#github)
   - [Contact Information](#contact-information)
 
   ## Description
+  undefined
+  ## License
   undefined
   ## Installation
   undefined
