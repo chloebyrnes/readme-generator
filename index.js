@@ -11,7 +11,7 @@ const questions = [
     //Title
     {
     type: 'input',
-    name: 'title',
+    name: 'Title',
     message: 'What is the title of the project?',
     validate: your_Input => {
         if (your_Input) {
@@ -26,7 +26,7 @@ const questions = [
     //Description
     {
         type: 'input',
-        name: 'description',
+        name: 'Description',
         message: 'Add a description for your project.',
         validate: your_description => {
             if (your_description) {
@@ -42,7 +42,7 @@ const questions = [
     //Installation
     {
         type: 'input',
-        name: 'installation',
+        name: 'Installation',
         message: 'How do you install your project?',
         validate: your_installation => {
             if (your_installation) {
@@ -60,7 +60,7 @@ const questions = [
 
     {
         type: 'input',
-        name: 'usage',
+        name: 'Usage',
         message: 'How do you use this project?',
         validate: your_usage => {
             if (your_usage) {
@@ -78,7 +78,7 @@ const questions = [
 
         {
             type: 'input',
-            name: 'license',
+            name: 'License',
             message: 'Choose a license that will best suit your project.',
             choices: [
                 {
@@ -110,7 +110,7 @@ const questions = [
 
         {
             type: 'input',
-            name: 'contribution',
+            name: 'Contribution',
             message: 'How can users contribute to this project?',
             validate: your_contribution => {
                 if (your_contribution) {
@@ -129,7 +129,7 @@ const questions = [
 
         {
             type: 'input',
-            name: 'test',
+            name: 'Test',
             message: 'How does the user test this project?',
             validate: your_test => {
                 if (your_test) {
@@ -147,7 +147,7 @@ const questions = [
 
         {
             type: 'input',
-            name: 'github',
+            name: 'Github',
             message: 'What is your Github username?',
             validate: github_input => {
                 if (github_input) {
@@ -165,7 +165,7 @@ const questions = [
 
         {
             type: 'input',
-            name: 'email',
+            name: 'Email',
             message: 'Provide your email so users may be able to ask you questions.',
             validate: email_input => {
                 if (email_input) {
