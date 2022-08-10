@@ -80,7 +80,19 @@ const questions = [
             type: 'input',
             name: 'license',
             message: 'Choose a license that will best suit your project.',
-            choices: ['MPL 2.0', 'GNU', 'Apache', 'MIT', 'None of the above'],
+            choices: [
+                {
+                    name: 'MIT',
+                    value: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+                }, 
+                {
+                    name: 'Apache 2.0',
+                    value: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+                }, 
+                {
+                    name: 'CC0 1.0',
+                    value: '[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)'
+                }],
             validate: your_licence => {
                 if (your_licence) {
                     return true;
