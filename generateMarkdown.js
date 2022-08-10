@@ -20,7 +20,6 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Testing](#testing)
-  - [Github](#github)
   - [Contact Information](#contact-information)
 
   ## Description
