@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs'); //file system
 const generateMarkdown = require('./generateMarkdown')
-console.log("Hello, welcome to my README Generator!")
+console.log("🍓 Hello! Welcome to my README Generator! 🍓")
 console.log("Answer the following questions to generate a high quality README for your project.")
 
 // TODO: Create an array of questions for user input
