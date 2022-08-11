@@ -1,4 +1,4 @@
-# undefined
+# README Generator
   ## Table of Contents
   - [Description](#description)
   - [License](#license)
@@ -9,17 +9,17 @@
   - [Contact Information](#contact-information)
 
   ## Description
-  a
+  A generator to create a high quality README file.
   ## License
-  a
+  MIT
   ## Installation
-  undefined
+  Through GITHUB, VSCODE terminal.
   ## Usage
-  a
+  VSCODE terminal.
   ## Contribution
-  a
+  N/A
   ## Testing
-  a
+  Test
   ## Contact Information
-  - Github: [a](https://github.com/undefined)
-  - Email: [a]()
+  - Github: [chloebyrnes](https://github.com/undefined)
+  - Email: [chloebyrnesash@gmail.com]()
