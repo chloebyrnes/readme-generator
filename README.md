@@ -24,6 +24,3 @@
   - Github: [chloebyrnes](https://github.com/chloebyrnes)
   - Email: [chloebyrnesash@gmail.com] (mailto:user@example.com)
 
-  var mail = document.createElement("a");
-mail.href = "mailto:mail@example.org";
-mail.click();
