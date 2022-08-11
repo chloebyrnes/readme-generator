@@ -77,7 +77,7 @@ const questions = [
         //License
 
         {
-            type: 'input',
+            type: 'list',
             name: 'License',
             message: 'Choose a license that will best suit your project.',
             choices: [
@@ -92,7 +92,12 @@ const questions = [
                 {
                     name: 'CC0 1.0',
                     value: '[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)'
-                }],
+                },
+                {   name: 'None',
+                    value: 'None'
+                }
+            
+            ],
             validate: your_licence => {
                 if (your_licence) {
                     return true;
