@@ -1,4 +1,4 @@
-# a
+# README Generator
   ## Table of Contents
   - [Description](#description)
   - [License](#license)
@@ -9,18 +9,18 @@
   - [Contact Information](#contact-information)
 
   ## Description
-  a
+  A generator that creates a high quality README file.
   ## License
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  None
   ## Installation
-  a
+  Through GITHUB.
   ## Usage
-  a
+  VSCODE Terminal.
   ## Contribution
-  a
+  N/A
   ## Testing
-  a
+  Test
   ## Contact Information
-  - Github: [a](https://github.com/a)
-  - Email: [a](mailto:user@example.com)
+  - Github: [chloebyrnes](https://github.com/chloebyrnes)
+  - Email: [chloebyrnesash@gmail.com](mailto:user@example.com)
 
