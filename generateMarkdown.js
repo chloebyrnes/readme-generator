@@ -39,9 +39,6 @@ function generateMarkdown(data) {
   - Github: [${data.Github}](https://github.com/${data.Github})
   - Email: [${data.Email}] (mailto:user@example.com)
 
-  var mail = document.createElement("a");
-mail.href = "mailto:mail@example.org";
-mail.click();
 `;
 }
 
