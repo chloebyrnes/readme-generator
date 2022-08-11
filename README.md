@@ -22,5 +22,5 @@
   a
   ## Contact Information
   - Github: [chloebyrnes](https://github.com/chloebyrnes)
-  - Email: [chloebyrnesash@gmail.com] (mailto:user@example.com)
+  - Email: [chloebyrnesash@gmail.com](mailto:user@example.com)
 
