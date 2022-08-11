@@ -36,8 +36,12 @@ function generateMarkdown(data) {
   ## Testing
   ${data.Test}
   ## Contact Information
-  - Github: [${data.Github}](https://github.com/${data.github})
-  - Email: [${data.Email}]()
+  - Github: [${data.Github}](https://github.com/${data.Github})
+  - Email: [${data.Email}] (mailto:user@example.com)
+
+  var mail = document.createElement("a");
+mail.href = "mailto:mail@example.org";
+mail.click();
 `;
 }
 

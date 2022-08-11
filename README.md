@@ -1,4 +1,4 @@
-# README Generator
+# a
   ## Table of Contents
   - [Description](#description)
   - [License](#license)
@@ -9,17 +9,21 @@
   - [Contact Information](#contact-information)
 
   ## Description
-  A generator to create a high quality README file.
+  a
   ## License
-  MIT
+  a
   ## Installation
-  Through GITHUB, VSCODE terminal.
+  a
   ## Usage
-  VSCODE terminal.
+  a
   ## Contribution
-  N/A
+  a
   ## Testing
-  Test
+  a
   ## Contact Information
-  - Github: [chloebyrnes](https://github.com/undefined)
-  - Email: [chloebyrnesash@gmail.com]()
+  - Github: [chloebyrnes](https://github.com/chloebyrnes)
+  - Email: [chloebyrnesash@gmail.com] (mailto:user@example.com)
+
+  var mail = document.createElement("a");
+mail.href = "mailto:mail@example.org";
+mail.click();
