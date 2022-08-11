@@ -11,7 +11,7 @@
   ## Description
   a
   ## License
-  None
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Installation
   a
   ## Usage
@@ -21,6 +21,6 @@
   ## Testing
   a
   ## Contact Information
-  - Github: [chloebyrnes](https://github.com/chloebyrnes)
-  - Email: [chloebyrnesash@gmail.com](mailto:user@example.com)
+  - Github: [a](https://github.com/a)
+  - Email: [a](mailto:user@example.com)
 
