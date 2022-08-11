@@ -9,13 +9,13 @@
   - [Contact Information](#contact-information)
 
   ## Description
-  A generator that creates a high quality README file.
+  Generator for README files
   ## License
-  None
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Installation
-  Through GITHUB.
+  Through GITHUB
   ## Usage
-  VSCODE Terminal.
+  VSCODE Terminal
   ## Contribution
   N/A
   ## Testing
